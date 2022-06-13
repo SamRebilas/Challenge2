@@ -6,7 +6,7 @@
 body{
     color: rgb(33, 33, 99);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(127, 229, 255);
+    background-color: white
 }
 header{
     padding: 10px 0px;
@@ -61,7 +61,7 @@ background-position: center;
 font-size: x-large;
 color: rgb(46, 46, 46);
 background-color: rgb(140, 231, 243);
-margin-top: 300px;
+margin-top: 0px;
 }
 .flex-left{
     display: flex;
@@ -74,7 +74,14 @@ justify-content: space-between;
 margin: 40px 50px;
 width: 90%;
 align-items: center;
+color: rgb(46, 46, 46);
 
+}
+.border{
+    border-left: 3px solid;
+    height: 100px;
+    flex: 2 1%;
+    color: rgb(46, 46, 46);
 }
 .about-me h2{
  font-size: xx-large;
@@ -82,8 +89,15 @@ align-items: center;
  width: 40%;
     
 }
+.positioning-1{
+    flex: 1000;
+}
 .about-me p{
-    padding-left: 300px;
+    font-size: medium;
+    text-align: left;
+    line-height: 1;
+    margin-left: 30px;
+    width: 100%;
 }
 .work{
     color: rgb(46, 46, 46);
