@@ -69,6 +69,9 @@ footer{
       padding: 5px 20px 5px 50px;
       margin-right: 70px;
      }
+     footer h2{
+        padding: 5px 20px 5px 50px;
+     }
      footer nav ul li{
         list-style: none;
         display: inline-block;
@@ -94,7 +97,7 @@ footer{
 
 .hero{
     width: 100%;
-    height: 20vh;
+    height: 40vh;
   background-image: url("./images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg") ;  
 background-position: center;
 }
@@ -103,6 +106,13 @@ font-size: x-large;
 color: rgb(46, 46, 46);
 background-color: rgb(140, 231, 243);
 margin-top: 0px;
+}
+.my-image{
+    position: absolute;
+    top: 120px;
+    left:20px;
+    border: 4px rgb(46, 46, 46) solid ;
+   
 }
 .flex-left {
     display: flex;
@@ -113,7 +123,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 margin: 40px 50px;
-width: 90%;
+width: 100%;
 align-items: center;
 color: rgb(46, 46, 46);
 
@@ -132,9 +142,10 @@ color: rgb(46, 46, 46);
 }
 .positioning-1{
     flex: 1000;
+   
 }
 .intro p{
-    font-size: medium;
+    font-size: large;
     text-align: left;
     line-height: 1;
     margin-left: 30px;
@@ -148,8 +159,8 @@ color: rgb(46, 46, 46);
 .work h2{
     font-size: xx-large;
     color: rgb(46, 46, 46);
-    margin: 0px 0px 0px -150px;
-    width: 50%;
+  margin-bottom: 0 0 0 70px;
+    width: 40%;
 }
 .flex-row{
     display: flex;
@@ -189,9 +200,12 @@ opacity: .5;
 
 
 
-.images-1 img{
+.images-1{
 
     background-color: rgb(127, 229, 255);
+    margin-bottom: 25px;
+    margin-right: 200px;
+    align-items: center;
     
     
 }
@@ -199,6 +213,7 @@ opacity: .5;
 
 .images-2{
     background-color: rgb(127, 229, 255);
+    margin-bottom: 25px;
 
 }
 .images-2:hover{
