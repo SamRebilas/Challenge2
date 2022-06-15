@@ -99,23 +99,21 @@ footer{
     background-image: url("./images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg") ;  
     align-items: flex-start;
 }
+
 .hero h3{
 font-size: x-large;
 color: rgb(46, 46, 46);
 background-color: rgb(140, 231, 243);
 margin-top: 0px;
 }
+
 .my-image{
   
     top: 140px;
     left:20px;
     border: 4px rgb(46, 46, 46) solid ;
-   
 }
-.flex-left {
-    display: flex;
-    justify-content: left;
-}
+
 .intro {
 display: flex;
 flex-wrap: wrap;
@@ -124,19 +122,25 @@ margin: 40px 50px;
 width: 100%;
 align-items: center;
 color: rgb(46, 46, 46);
-
 }
+
+.flex-left {
+    display: flex;
+    justify-content: left;
+}
+.intro h2{
+    font-size: xx-large;
+    margin: 0 0 0 70px;
+    width: 40%;
+       
+   }
+
 .border{
     border-left: 3px solid;
     height: 100px;
     color: rgb(46, 46, 46);
 }
-.intro h2{
- font-size: xx-large;
- margin: 0 0 0 70px;
- width: 40%;
-    
-}
+
 .positioning-1{
     flex: 1000;
    
@@ -148,28 +152,6 @@ color: rgb(46, 46, 46);
     margin-left: 30px;
     width: 100%;
 }
-.work{
-    color: rgb(46, 46, 46);
-    font-size: x-large;
-    
-}
-
-.work h2{
-    font-size: xx-large;
-    color: rgb(46, 46, 46);
-    padding-right: 250px;
-    width: 40%;
-}
-.flex-row{
-    display: flex;
-    justify-content: left;
-}
-.flex-left-2{
-    display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
 .container-1{
     display: flex;
     flex-wrap: wrap;
@@ -181,6 +163,29 @@ color: rgb(46, 46, 46);
    width: 80%;
   
 }
+.work{
+    color: rgb(46, 46, 46);
+    font-size: x-large;
+    
+}
+.flex-row{
+    display: flex;
+    justify-content: left;
+}
+.work h2{
+    font-size: xx-large;
+    color: rgb(46, 46, 46);
+    padding-right: 250px;
+    width: 40%;
+}
+
+.flex-left-2{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
 
 .images-1{
 
@@ -206,24 +211,6 @@ color: rgb(46, 46, 46);
 .images-2:hover{
     opacity: .5;
 
-}
-.images-3{
-    background-color: rgb(127, 229, 255);
-}
-.images-3:hover{
-    opacity: .5;
-}
-.images-4{
-    background-color: rgb(127, 229, 255);
-}
-.images-4:hover{
-opacity: .5;
-}
-.images-5{
-    background-color: rgb(127, 229, 255);
-}
-.images-5:hover{
-    opacity: .5;
 }
 
 .contact-me{
@@ -258,6 +245,13 @@ opacity: .5;
     footer{
         justify-content: center;
     }
+    .intro p{
+        font-size: 15px;
+    
+    }
+    .intro h2{
+        font-size: 20px;
+    }
   
     .container-1{
         text-align: center;
@@ -277,21 +271,21 @@ opacity: .5;
         height: 150px;
         
     }
-    .intro p{
-        font-size: 15px;
-    
-    }
-    .intro h2{
-        font-size: 20px;
-    }
-  
-  
-    
+   
 }
 @media screen and (max-width: 768px) {
 
+    .intro p{
+        font-size: 12px;
+       }
+       
+       .intro h2{
+           font-size: 16px;
+       }
+   
     .container-1 {
-     
+        text-align: center;
+        flex: 1 100%;
       
     }
   
@@ -308,13 +302,6 @@ opacity: .5;
      
     }
   
-    .intro p{
-     font-size: 12px;
-    }
-    
-    .intro h2{
-        font-size: 16px;
-    }
-
+   
     
   }
