@@ -6,7 +6,7 @@
 body{
     color: rgb(33, 33, 99);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white
+    background-color: rgb(175, 206, 206)
 }
 header{
     padding: 10px 0px;
@@ -108,7 +108,7 @@ margin-top: 0px;
     display: flex;
     justify-content: left;
 }
-.about-me {
+.intro {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -121,10 +121,10 @@ color: rgb(46, 46, 46);
 .border{
     border-left: 3px solid;
     height: 100px;
-    flex: 2 1%;
+   
     color: rgb(46, 46, 46);
 }
-.about-me h2{
+.intro h2{
  font-size: xx-large;
  margin: 0 0 0 70px;
  width: 40%;
@@ -133,7 +133,7 @@ color: rgb(46, 46, 46);
 .positioning-1{
     flex: 1000;
 }
-.about-me p{
+.intro p{
     font-size: medium;
     text-align: left;
     line-height: 1;
@@ -143,7 +143,6 @@ color: rgb(46, 46, 46);
 .work{
     color: rgb(46, 46, 46);
     font-size: x-large;
-    
     
 }
 .work h2{
@@ -158,56 +157,72 @@ color: rgb(46, 46, 46);
 }
 .flex-left-2{
     display: flex;
-  flex: 2 20%;
+ 
   flex-wrap: wrap;
   align-items: center;
 }
 .border-2{
     border-left: 3px solid;
-    height: 800px;
-    flex: 2 1%;
+    height: 100px;
     color: rgb(46, 46, 46);
 }
 .container-1{
     display: flex;
     flex-wrap: wrap;
+    margin: 50px auto;
+    padding-bottom: 50px;
     justify-content: space-around;
    align-items: center;
    margin-left: 215px;
    width: 80%;
+ 
   
-    
-   
-    
 }
-.images-1 h3{
+.images-1 {
     
    
     background-color: rgb(127, 229, 255);
 }
+.images-1:hover{
+opacity: .5;
+}
+
 
 
 .images-1 img{
 
+    background-color: rgb(127, 229, 255);
     
     
 }
 
 
 .images-2{
+    background-color: rgb(127, 229, 255);
 
+}
+.images-2:hover{
+    opacity: .5;
 
 }
 .images-3{
-
+    background-color: rgb(127, 229, 255);
+}
+.images-3:hover{
+    opacity: .5;
 }
 .images-4{
-
+    background-color: rgb(127, 229, 255);
+}
+.images-4:hover{
+opacity: .5;
 }
 .images-5{
-
+    background-color: rgb(127, 229, 255);
 }
-
+.images-5:hover{
+    opacity: .5;
+}
 
 .contact-me{
     color: rgb(127, 229, 255);
